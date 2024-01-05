@@ -36,7 +36,6 @@ const Contact = () => {
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            // Reset the success state to allow the form to be rendered again
             setEmailSent(false);
           }}
         >
